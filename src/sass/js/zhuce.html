@@ -1,0 +1,24 @@
+// JavaScript Document
+/*注册验证*/
+jQuery(function($){
+		$(function(){
+			var $next=$('.nextone');
+			$next.on('click',function(){
+				var $phonenumber=$('.phone1').val();
+				var $yanzheng2=$('.yangzheng2').val();
+				var reg=/^(13[0-9]|14[0-9]|15[0-9]|18[0-9]|17[0-9])[0-9]{8}$/;
+				var reg1=/^[0-9]{6}$/
+				console.log($phonenumber)
+				console.log(reg.test($phonenumber))
+				if(reg.test($phonenumber)){
+					$('.checknumber').html('手机验证正确，可以注册').css({"color":"blue"});
+				}else{
+					$('.checknumber').html('*请输入正确的手机号码');
+				}if(reg1.test($yanzheng2)){
+					$('.checkyanzheng').html('验证正确，注册').css({"color":"blue"});
+				}else{
+					$('.checkyanzheng').html('*请输入正确的验证码').css({"color":"red"})
+				}
+			})
+		})
+	});

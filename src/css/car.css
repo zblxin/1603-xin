@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+/*------------重置样式----------------*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, 
+fieldset, legend, img ,button,input{ margin:0; padding:0} 
+li{list-style: none}
+a{text-decoration: none}
+
+body{font-family:"微软雅黑";font-size:12px}
+a{color:#FFF}
+/*-------------------------car_*/
+.car_tit {width:1264px;height:103px;background:#f1eeed;border-bottom:1px solid #7e0001}
+.car_tit .shunxu{position:absolute;left:634px;top:65px;width:500px;height:38px}
+.car_tit .shunxu .line{float:left;display:block;width:70px;height:5px;background:#ac0916;line-height:18px;margin-top:6px}
+.car_tit .shunxu .circular{display:block;float:left;width:18px;height:18px;background: #ac0916;border-radius:9px;color:#ffffff;text-align: center;}
+.car_tit .shunxu .circular2,.car_tit .shunxu .line2{background:#cccccc;color:#f1eceb}
+.car_tit .shunxu ul li{float:left;width:158px;text-align: center;margin-top:5px}
+.car_tit .shunxu ul {width:500px;height:30px;float:left}
+.car_tit .shunxu ul .car{color:#ac0916}
+/*------------------car_1th---------------*/
+.speed{width:1264px;}
+.speed .speed_car{border-top:5px solid #e7e7e7;width:960px;margin:0 auto;border:3px solid #e7e7e7;min-height: 340px;}
+.speed_car p{width:950px;height:26px;border-bottom: 2px solid #85726c;padding-left:20px;padding-top:15px}
+.speed_car p span{display:block;width:12px;height:12px;border-radius: 6px;border:1px solid #999999;float: left;margin-top: 3px;}
+.speed_car p span i{margin-top:2px;margin-left:2px;width:8px;height:8px;border-radius: 4px;display:block;background:#c75050;float: left;display:none}
+.speed_car p a{display: block;float: left;color:#333333;font-size:14px}
+.speed_car .zhangdan ul{width:960px;height:36px;border-bottom: 2px dashed #cccccc;}
+.speed_car .zhangdan ul li{float:left}
+.speed_car .zhangdan ul .text1{width:100px;padding-left:20px;line-height:36px}
+.speed_car .zhangdan ul .text2,.speed_car .zhangdan ul .text3,.speed_car .zhangdan ul .text4,.speed_car .zhangdan ul .text3,.speed_car .zhangdan ul .text5{width:312px;text-align: center;line-height:36px}
+.speed_car .zhangdan ul .text2{width:312px}
+.speed_car .zhangdan ul .text3{width:142px}
+.speed_car .zhangdan ul .text4{width:142px}
+.speed_car .zhangdan ul .text5{width:142px}
+#cen{height:126px;border-bottom: 1px dashed #9e9694;}
+#cen input{float:left;margin-top:60px;margin-left:20px}
+.speed_car .zhangdan .car_trueGoods{float:left;margin-left:100px}
+#cen h5{display:block;padding-top:20px;padding-left:40px;width:380px}
+#cen img{padding-right:30px}
+#cen a{color:#857e8c;padding-top: 10px;display: block;}
+#cen h4{margin:0 auto}
+
+
+/*------------------car_2th---------------*/
+
+.car_2th{width:1264px;background: #ffffff;height:560px}
+.car_2th .bg{width:960px;height:34px;background:url(img/car_2th_pic1.jpg) repeat;margin:0 auto;}
+.car_2th .allgoods{width:960px;margin:0 auto;}
+.car_2th .bg span{display: block;float: left;line-height: 34px;color:#999999;margin-left:8px}
+.car_2th div h3{color:#666666;font-size:14px;float:left;line-height: 34px;}
+.car_2th .active{width:303px;border: 1px solid #ebebeb;float: left;margin:12px 0 0 12px}
+.car_2th .active .name{text-indent:10px;background:#999999;height:29px;line-height:29px;color:#ffffff;}
+.car_2th .active .goods{display:block;float:left;border:1px solid #CCCCCC;margin:12px 0 0 12px;}
+.car_2th .allgoods .active .jieshao{float:left;margin-top:20px;}
+.car_2th .allgoods .active .jieshao h5{margin-bottom:10px;margin-left:13px;color:#333333;font-size:12px}
+.car_2th .allgoods .active .jieshao h5:hover{text-decoration: underline;color:#e94949}
+.car_2th .allgoods .active .jieshao p{color:#666666;line-height:27px;margin-left:13px}
+.car_2th .allgoods .active .jieshao p .color{color:#cf5a13;font-weight: bolder;}
+.car_2th .allgoods .active .jieshao .comein{color:#ffffff;background:#ce2d2d;border:0;margin-left:13px;margin-top:13px;width:80px;height:24px}
+.car_2th .allgoods .active .jieshao .comein:hover{color:#999999}

@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------重置样式----------------*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, 
+fieldset, legend, img ,button,input{ margin:0; padding:0} 
+li{list-style: none}
+a{text-decoration: none}
+
+body{font-family:"微软雅黑";font-size:12px}
+a{color:#FFF}
+input{outline:none}
+/*-----------------------------tit--------*/
+#tit{width:1264px;height:93px;border-bottom:1px solid #bc0e31}
+#tit .logo{float:left;margin-left:23px;margin-top:23px}
+#tit .information{float:right;margin-right:23px;margin-top:23px}
+/*---------------registered---------------------*/
+.box{width:1264px;height:594px;border-bottom:1px solid #cccccc;position:relative}
+.box .registered{float:left;width:400px;border:1px solid #d2d2ce;background:#f8f8f5;margin-left:31px;margin-top:22px}
+.box .ban{width:790px;height:480px;float: right;background:url(../img/register_pic.jpg) no-repeat;position:relative}
+.box .registered h3{margin-top:23px;margin-left:22px;font-size:14px;color:#333333}
+.box .registered .theWay{width:355px;margin-left:25px;text-align:right;color:#0066cc;border-bottom:1px solid #d2d2ce;height:20px;margin-bottom:30px}
+.box .registered .theWay:hover{text-decoration: underline;}
+
+.box .registered p{width:400px;height:36px;margin-bottom:10px}
+
+.box .registered .clear{border-top:2px solid #7d7d7d;border-left:2px solid #7d7d7d;border-right:2px solid #f6f6f6;border-bottom:2px solid #f6f6f6;display: block;height:36px;width:277px;float:left;text-indent:9px}
+
+.box .registered span{line-height:36px;display:block;float:left;text-align:right;width:75px}
+.box .registered .test,.box .registered .input{width:174px;}
+.box .registered .changeMa{background:#feffff}
+.box .registered .changeMa,.box .registered .note{width:100px;margin-top:2px;height:30px;display:block}
+
+.box .registered .note{height:37px;background:#f86a12;color:#ffffff;line-height: 30px;text-align:center}
+.box .registered .choose{margin-left:90px;}
+.box .registered .checked{margin-left:96px;margin-top:20px}
+.box .registered .logins{display:block;width:356px;height:46px;background:#bb0e30;margin:0 auto;text-align: center;line-height: 46px;color:#ffffff;font-size:15px;margin-bottom:28px}
+
+#box{width:281px;height:18px;color:red;margin:5px 0px;margin-left:70px;}
+
+#changeMa{display:block;text-align:center;line-height:30px;width:100px;margin-top:2px;height:30px;border:0;outline:none}
+
+.hide{width:357px;height:60px;margin:0 auto;background:#ffffe8;border:1px solid #eedaae;margin-top:8px;display:none}
+.hide a,.hide .up{display:block;width:65px;height:60px;float:left;text-align:center;line-height:60px;color:#363636;font-size:14px;}
+.hide .up{width:270px;height:38px;float:left;display:block;margin-top:10px;text-align:left}
+
+
+
+

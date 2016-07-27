@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+/*------------重置样式----------------*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, 
+fieldset, legend, img ,button,input{ margin:0; padding:0} 
+li{list-style: none}
+a{text-decoration: none}
+
+body{font-family:"微软雅黑";font-size:12px}
+a{color:#FFF}
+button,input{outline:none}
+/*---------------------tit------------------------*/
+#tit{width:1264px;height:93px;border-bottom:1px solid #bc0e31}
+#tit .logo{float:left;margin-left:23px;margin-top:23px}
+#tit .information{float:right;margin-right:23px;margin-top:23px}
+
+/*---------------------login------------------------*/
+.login{width:1264px;height:488px;border-bottom:1px solid #cccccc;position:relative}
+.login .login_pic{position:absolute;left:164px;top:37px;float:left}
+.tanchubox,.tanchubox2{width:300px;height:20px;color:red;margin-left:30px;margin-bottom:6px;display:none}
+.login .login_box{width:405px;border:1px solid #dddddd;position:absolute;right:34px;top:37px;float:left}
+.login_box div{width:405px;height:78px;}
+.login_box span{display:block;float:left;line-height:12px;height:14px;margin-left:2px;color:#b6b6af;line-height:58px;margin-left:30px}
+.login_box div .sell{width:120px;line-height:58px;float:left;text-align:center;color:#253231;font-size:18px}
+.login_box .userName,.login_box .password{display:block;width:298px;height:30px;border-top:1px solid #968d88;border-left:1px solid #968d88;border-right:1px solid #ccbfb9;border-bottom:1px solid #ccbfb9;font-size:11px;text-indent:4px;color:#999999;margin-bottom:16px;margin-left:30px}
+.login_box .automatic_login{float:left;display:block;width:13px;height:13px;margin-left:30px}
+.login_box a{display:block;float:left;color:#333333;line-height:13px;text-indent:4px}
+.login_box .login_btn{width:298px;margin-left:30px;height:40px;background-image:url(img/login_bg.jpg);background-repeat:repeat;margin-top:60px;text-align:center;line-height:40px;color:#ffffff;font-size:17px}
+.login_box .rem{color:#3472b2;margin-top:14px;margin-left:30px;}
+.login_box .rem:hover{text-decoration:underline}
+.login_box .registered{margin-left:9px}
+.login_box .login_way{width:405px;height:90px;border-top:1px dashed #cccccc;float:left;margin-top:20px;}
+.login_box .login_way .con{width:200px;color:#999999;font-size:12px;margin-left:30px;height:22px;height:12px;margin-top:7px}
+.login_box .login_way p{margin-top:13px;margin-left:30px;height:31px;}
+.login_box .login_way a{width:97px;height:31px;margin-right:5px;}
+/*---------------------foot------------------------*/

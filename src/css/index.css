@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------重置样式----------------*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, 
+fieldset, legend, img ,button,input,a{ margin:0; padding:0} 
+li{list-style: none}
+a{text-decoration: none}
+img{border:0}
+body{font-family:"微软雅黑";font-size:12px}
+a{color:#FFF}
+/*------------index页面banner----------------*/
+   #focus {
+        position: relative;
+        width: 1264px;
+        
+    }
+#focus .dian  {position:absolute;right:10%;bottom:5%;}
+#focus .dian li{ float:left; text-align:center;line-height:30px;display:block;width:30px;height:30px;background:#86685e;border-radius: 15px;margin-left: 10px;color:#ffffff;margin-top:3px;font-size:16px}
+
+  
+ #focus .dian li.active{background:#FB002B} 
+ 
+ 
+    #bigpic {
+        height: 400px;
+    }
+    
+    #bigpic li {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+     #focus #bigpic li img{width:1264px;height:400px}
+   
+    .prev,
+    .next {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        margin-top: -40px;
+        padding: 10px;
+        background: rgba(0, 0, 0, .2);
+        font-size: 30px;
+        color: #ccc;
+        text-decoration: none;
+        display:none;
+        
+    }
+    
+    .next {
+        left: auto;
+        right: 10px;
+    }
+    
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, .5);
+    }
+  
+  /*------------index页面-年度精品热销----------------*/  
+.floornav {
+				width: 55px;
+				position: fixed;
+				top: 150px;
+				left: 50px;
+				
+				display: none;
+			}
+			.floornav  ul li {
+				width: 55px;
+				height: 52px;
+				border-bottom: 1px dotted #DDDDDD;
+				list-style: none;
+				font-size: 12px;
+				color:#ffffff;
+				text-align: center;
+				line-height: 52px;
+				position: relative;
+				cursor: pointer;
+				background:#d73c3c
+			}
+			.floornav  ul li span {
+				width: 55px;
+				height: 52px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				display: none;
+		
+			}
+			.floornav ul li.last {
+				background: #C00;
+				color: #fff;
+				border-bottom: 1px solid #ddd;
+			}
+			.floornav  ul li.hover span {
+				background: #c00;
+				color: #fff;
+				display: block;
+			}
+			.floornav  ul li.hover span.active {
+				background: #c00;
+				color: #fff;
+				display: block;
+			}
+			.floornav  ul li span.active {
+				background: #fff;
+				color: #c00;
+				display: block;
+			}
+/*------------index页面-年度精品热销----------------*/
+
+#box{background:#f6f6f6;width:1264px;height:1103px;float:left}
+#high-quality{width:991px;height:1103px;margin:0 auto;clear:left;}
+
+#high-quality h1{color:#FFF;width:991px;height:111px;line-height:111px;background:#b0813b;font-Size:71px;text-align:center}
+#high-quality .goods_list ul li{height:245px ;float:left;}
+#high-quality .goods_list ul li a img{border:0}
+/*------------index页面-大牌名酒----------------*/
+.dapai{width:1264px;height:1654px}
+.title,#wine_list{float:left;}
+#wine_list{width:1263px;height:1540px;background:#fb002b;overflow:hidden}
+.wine_list{width:990px;margin:0 auto;background:#ffffff;height:1540px}
+.wine_list ul li {float:left}
+/*------------index页面-大牌名酒-整箱特惠---------------*/
+#preferential{width:1264px;height:1387px;background:#fb002b;clear:left}
+#preferential .boxAll{width:1264px;height:53px;position:relative;}
+#preferential .all{width:991px;height:30px;background:#eee0dd;border-top:2px solid #ae9893;position:absolute;left:50%;top:50%;margin-left:-495px;margin-top:-15px}
+#preferential .all span,#preferential .all a{float:left;display:block;line-height:30px;text-align:center;margin-left:10px;color:#8c4839}
+#preferential .all a{float:right;margin-right:10px;color:#666666}
+#preferential .all a:hover{text-decoration:underline}
+#preferential ul{margin:0 auto;width:991px;}
+#preferential .introduce{width:231px;height:316px;float:left;margin:10px 0 7px 14px}
+#preferential .introduce a img{display:block;float:left;border:1px solid #eeeeee}
+#preferential .introduce div{height:83px;background:#ffffff;float:left;}
+#preferential .introduce div  a:hover {text-decoration:underline}
+#preferential .introduce div p{width:232px;height:12px;float:left;margin-top:11px}
+#preferential .introduce div a{width:227;margin-left:3px ;color:#6a6a6a;margin-top:13px;float:left}
+#preferential .introduce div .plice{color:#ff4400}
+#preferential .introduce div .mon{color:#999999;margin:0 2px}
+#preferential .introduce div del{color:#aa99bb;margin-left:20px}
+/*------------index页面-大牌名酒----------------*/

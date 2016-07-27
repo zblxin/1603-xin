@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>登录页面</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+	<link rel="stylesheet" type="text/css" href="../css/conmon.css">
+    
+    <script type="text/javascript" src="../sass/assets/jquery-1.12.0.js"></script>
+    
+    <script type="text/javascript" src="../sass/js/login.js"></script>
+    
+    <script type="text/javascript" src="../sass/js/fengzhunag.js"></script>
+    
+ 	<script>
+ 		
+ 	window.onload=function(){
+		var UserName=document.getElementById("user");
+		var Send=document.getElementById("send");
+		var Password=document.getElementById("password");
+		var Send=document.getElementById("send");
+	
+		//var A=document.getElementsByTagName("a")[0];
+		//var Box=document.getElementById("box");
+	if(document.cookie){
+		var Num=fnCheckCookie("num");	
+		if(Num==""){							
+			}else{
+				UserName.value=Num;
+			}	
+		Send.onclick=function(){
+			var pass=fnCheckCookie("pass");						
+			console.log(Num,pass)
+			if(Password.value!=pass){
+				alert("密码输入错误")
+			}else{
+				window.location.href='../index.html'
+			}
+	}	
+	}
+}
+ 	</script>
+	<body>
+		<!-----------------tit------------------->
+
+		<div id="tit">
+			<img class="logo" src="../img/logo.png">
+			<img class="information" src="../img/information.png">
+		</div>
+		
+		<!----------------login------------------->
+		<div class="login">
+
+			<img src="../img/login.png" class="login_pic">
+
+			<div class="login_box">
+				<div>
+					<span> . . . . . . .   </span>
+					<p class="sell">登录也买酒</p>
+					<span>. . . . . . . . . . . . . .  . . . .</span>
+				</div>
+                <p class="tanchubox"></p>
+				<input class="userName" id="user" type="text" name="user" placeholder="请输入E-mail或手机号"><p class="tanchubox2"></p>
+				<input class="password" id="password" type="password" name="passowrd" placeholder="请输入密码">
+				<input class="automatic_login" type="checkbox">
+				<a>自动登录</a>
+
+				<button class="login_btn" id="send">登录</button>
+				<a href="#" class="rem">[忘记密码?]</a>
+				<a href="#" class="rem registered ">[注册新账号]</a>
+
+				<div class="login_way">
+					<p class="con">使用合作网站登录</p>
+                    <p>
+					<a href="#" style="background-image:url(../css/img/xinlang_btn.jpg)"></a>
+					<a href="#" style="background-image:url(../css/img/zhifubao_btn.jpg)"></a>
+					<a href="#" style="background-image:url(../css/img/qq_btn.jpg)"></a>
+                    </p>
+				</div>
+			</div>
+		</div>
+		<!----------------foot------------------->
+		<div class="foot">
+        
+          <p>
+              <span class="pic"><img src="../css/img/top100.jpg" ></span>
+              <span class="text">消费者最喜爱的网站TOP100</span>
+              <span class="pic"><img src="../css/img/year18.jpg"></span> 
+               <span class="text">仅限18周岁以上人士购买</span>
+               <span class="pic"> <img src="../css/img/network.jpg"></span> 
+               <span class="text">网络社会征信网</span>
+               <span class="pic"> <img src="../css/img/gs.jpg"></span> 
+               <span class="text">上海工商</span> <span class="text1">京公网安备11010502013828</span>
+            </p>
+        <p class="center_text"> Copyright 2006-2015 也买酒 yesmywine.com 版权所有 </p>
+        <p class="last_leftPic"><img src="../css/img/foot_left.png" ><img src="../css/img/foot_right.png" ></p>
+        </div>
+	</body>
+
+</html>
