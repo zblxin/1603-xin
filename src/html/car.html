@@ -6,6 +6,9 @@
 	</head>
     <link rel="stylesheet" type="text/css" href="../css/conmon.css">
     <link rel="stylesheet" type="text/css" href="../css/car.css">
+    <script type="text/javascript" src="../sass/assets/jquery-1.12.0.js"></script>
+		<script type="text/javascript" src="../sass/js/car.js"></script>
+    
 	<body>
 		<div class="tit">
     	<ul class="list_left">
@@ -44,7 +47,7 @@
 <!-----------------------car_1th--------------------------->
 <div class="speed">
 	<div class="speed_car">
-		<p><span><i></i></span><a>:由顺丰发送</a></p>
+		<p><span class="kuaidi"><i></i></span><a>:由顺丰发送</a></p>
 		<div class="zhangdan">
 		
 			<ul>
@@ -55,13 +58,35 @@
 				<li class="text5">小计 </li>
 			</ul>
 			<div id="cen">
-				<input type="checkbox">
-				<img class="car_trueGoods" src="../img/car_trueGoods.jpg"/>
-				<h5 >黄尾袋鼠茜拉红葡萄酒（又名：2014黄尾袋鼠茜拉子红葡萄酒）</h5>
-				<a>Yellow Tail Shirze</a>
-				<h4>￥<span><strong>49.0</strong></span></h4>
+				<ul>
+					<li><input class="all_select" type="checkbox"></li>
+					<li class="news1"><img class="car_trueGoods" src="../img/car_trueGoods.jpg"/></li>
+					<li class="news2"><h5 >黄尾袋鼠茜拉红葡萄酒（又名：2014黄尾袋鼠茜拉子红葡萄酒）</h5><a>Yellow Tail Shirze</a></li>
+					<li class="news3">￥<span><strong>49.0</strong></span></li>
+					<li class="news4">
+						<button class="jian">-</button><input class="fuhao" value="1" id="much" type="text"><button class="add">+</button>
+					</li>
+					<li class="news5">￥<span><button class='subtotal'></button></span></li>
+					<li class="news6">加入收藏夹<br><a class="del">删除</a></li>
+				</ul>
+				
 			</div>
-		
+			<div id="gt">
+				<ol>
+					<li><input class="all_del" type="checkbox"></li>
+					<li>全选</li>
+					<li>批量加入收藏夹</li>
+					<li>删除</li>
+				</ol>
+			</div>
+			<div id="but">
+				<ol>
+					<li class="but1">商品件数：<span>1</span>件</li>
+				
+					<li class="but2">商品总价：<span>￥</span><input class="but2_int" type="text"></li>
+					<li class="but3">优惠券：0</li>
+				</ol>
+			</div>
 		</div>
 		
 		

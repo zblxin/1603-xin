@@ -76,11 +76,15 @@ $(function(){
 $(function(){
 	var $fuhao=$('.add');
 	var jian=$('.jian');
+	
+	
 	var $shuliang=$fuhao.parent().find('input').val();	
 	$fuhao.on('click',function(){		
 		$shuliang=parseInt($shuliang)+1;
+	
 		$fuhao.parent().find('input').val($shuliang);
 		
+	
 	})
 	jian.on('click',function(){
 		$shuliang=parseInt($shuliang)-1;

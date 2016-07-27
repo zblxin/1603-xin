@@ -46,6 +46,4 @@ $(function() {
 
 	})
 })
-$(function(){
-	var 
-})
+

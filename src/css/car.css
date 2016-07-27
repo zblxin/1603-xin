@@ -32,14 +32,33 @@ a{color:#FFF}
 .speed_car .zhangdan ul .text3{width:142px}
 .speed_car .zhangdan ul .text4{width:142px}
 .speed_car .zhangdan ul .text5{width:142px}
-#cen{height:126px;border-bottom: 1px dashed #9e9694;}
-#cen input{float:left;margin-top:60px;margin-left:20px}
+#cen{height:126px;}
+#cen .all_select{float:left;margin-top:60px;margin-left:20px}
 .speed_car .zhangdan .car_trueGoods{float:left;margin-left:100px}
-#cen h5{display:block;padding-top:20px;padding-left:40px;width:380px}
-#cen img{padding-right:30px}
-#cen a{color:#857e8c;padding-top: 10px;display: block;}
-#cen h4{margin:0 auto}
+#cen ul{height:124px;margin:0 auto}
+#cen ul .news1{margin-right:30px}
+#cen ul .news2{width:200px;line-height:25px;margin-top:10px}
+#cen ul .news2 a{color:#756775}
+#cen ul .news3,#cen ul .news4,#cen ul .news5{width:110px;text-align: right;line-height:130px}
+#cen ul .news4{width:130px;margin-left:30px}
+#cen ul .news4 #much{width:30px;height: 20px;border:1px solid #999;margin:0 ;text-align: center;line-height:130px;border:1px solid #bea9a0;margin:0 1px 0 1px}
+#cen ul li .del{color:#3172b2}
 
+#cen ul .news4 button{outline:none;width:15px;height:22px;border:1px solid #d3c6c0;background:#f1eeeb}
+#cen ul .news5 {padding-left:20px}
+#cen ul .news5 .subtotal{width:30px;height:20px;border:0;background:#ffffff;outline:none}
+#cen ul .news5 ,#cen ul .news3 {color:#c75050}
+#cen ul .news5 span,#cen ul .news3 span{color:#000000}
+#cen ul .news6{color:#3172b2;text-align: center;width:100px;margin-top:50px;padding-left:40px}
+#cen ul .news6:hover{cursor: pointer;}
+#gt{width:960px;height:70px;border:1px solid #cccccc}
+#gt ol{float:left}
+#gt ol li{float: left;margin-left:20px;line-height:70px;color:#333333}
+#but{height:58px;}
+#but ol{float: right;margin-right:30px}
+#but ol li{float:left;line-height:58px;margin-left:10px}
+#but ol .but1,#but ol .but2{color:#666666}
+#but ol .but2_int{width:30px;height:13px;border:0;outline:none}
 
 /*------------------car_2th---------------*/
 
