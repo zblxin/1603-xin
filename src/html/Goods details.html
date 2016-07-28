@@ -8,85 +8,8 @@
 		<link rel="stylesheet" type="text/css" href="../css/conmon.css" />
 		<script type="text/javascript" src="../sass/assets/jquery-1.12.0.js"></script>
 		<script type="text/javascript" src="../sass/js/xiangqing.js"></script>
+        <a href="../json/json.txt">json.txt</a>
 	</head>
-	<script>
-		var pro = [{
-			"id": "1001",
-			"name": "北京",
-			"city": [{
-				"id": "01",
-				"name": "朝阳区",
-			}, {
-				"id": "02",
-				"name": "海定区",
-			}, {
-				"id": "03",
-				"name": "东城区",
-			}]
-		}, {
-			"id": "1002",
-			"name": "深圳",
-			"city": [{
-				"id": "01",
-				"name": "罗湖区",
-			}, {
-				"id": "02",
-				"name": "南山区",
-			}, {
-				"id": "03",
-				"name": "福田区",
-			}]
-		}, {
-			"id": "1003",
-			"name": "广州",
-			"city": [{
-				"id": "01",
-				"name": "海珠区",
-			}, {
-				"id": "02",
-				"name": "南沙区",
-			}, {
-				"id": "03",
-				"name": "越秀区",
-			}]
-		}, ]
-
-		function Pro() {
-			var Province = document.getElementById("province");
-			for(var i = 0; i < pro.length; i++) {
-				var objpro = document.createElement("option");
-
-				objpro.innerHTML = pro[i].name;
-				objpro.value = pro[i].id;
-				Province.appendChild(objpro);
-
-			}
-			selected(Province)
-		}
-
-		function selected(obj) {
-
-			var selectcity = obj.value;
-
-			for(var i = 0; i < pro.length; i++) { //确定出你选择的是那个省（市），
-				if(selectcity == pro[i].id) {
-					break;
-				}
-			}
-			var objselectcity = pro[i].city; //把确定好的省的城市付给变量	
-			var City = document.getElementById("city");
-			City.length = 0;
-			for(var j = 0; j < objselectcity.length; j++) {
-				var objcity = document.createElement("option");
-				objcity.innerHTML = objselectcity[j].name;
-				objcity.value = objselectcity[j].id;
-				City.appendChild(objcity);
-			}
-		}
-	</script>
-
-	</script>
-
 	<body onload="Pro()">
 		<div class="tit">
 			<ul class="list_left">

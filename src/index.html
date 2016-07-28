@@ -6,7 +6,7 @@
 	</head>
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/conmon.css">
- <link rel="stylesheet" type="text/css" href="css/goods.css">
+
   <script src="sass/assets/jquery-1.12.0.js"></script>
 	<script src="sass/js/index.js"></script>
     
@@ -26,10 +26,23 @@
     <ul class="list_right">  
        	<li><a href="#">会员俱乐部</a></li>
         <li><a href="#">签到</a></li>
-        <li><a href="#">我的账号&ensp;<img src="css/img/goods_jt.jpg" /></a></li>
-        <li><a href="#">手机版</a></li>
+        <li>
+        <a href="#" class="account">我的账号&ensp;<img src="css/img/goods_jt.jpg" /></a>
+         <i></i>
+        <ul class="mine">
+       		 <li>我的订单</li>
+             <li>我的存酒库</li>
+             <li>我的优惠券</li>
+             <li>我的收藏夹</li>
+        </ul>
+        
+        </li>
+        <li>
+        <a href="#" class="way">手机版</a>
+        <span></span>
+        <img id ="way" src="css/img/index_way.png"></li>
         <li><a href="#">红酒交易中心</a></li>
-        <li><a href="#">也买服务&ensp;<img src="css/img/goods_jt.jpg" /></a></li>
+        <li><a href="#">也买服务&ensp;<img  src="css/img/goods_jt.jpg" /></a></li>
         <li><a href="#">设置勿扰</a></li>
     </ul>
 </div>
@@ -81,19 +94,19 @@
    	  	  <input class="btn" type="button" style="background:url(css/img/btn.jpg) no-repeat"/>
           
         </div>
-        <ul class="down">
-              <li  class="baby">
-              <a href="#">所有宝贝</a>
-                          
+         <ul class="down">
+              <li >
+              <a href="#" >所有宝贝</a>
+              	        
               </li>
-              <li class="allbaby"><a href="html/list.html">精选干红</a>              
+              <li class="allbaby"><a href="#" >精选干红</a>             	
               	<ul class="down_menu">
                 	 <li ><a href="#" >按综合</a></li>
              		 <li ><a href="#" >按销量</a></li>
              		 <li ><a href="#" >按价格</a></li>
            		  <li ><a href="#" >按新品</a></li>
-                </ul>  
-              
+                </ul>      
+              	
               </li>
               <li ><a href="#" >名庄精选</a></li>
               <li ><a href="#" >女神最爱</a></li>
@@ -123,12 +136,10 @@
         <a href="#" class="next">&gt;</a>
         <ul class="dian">
         	<li>1</li>
-        	<li>2</li>
-       	
+        	<li>2</li>      	
         	<li>3</li>
         	<li>4</li>
-        	<li>5</li>
-        	
+        	<li>5</li>      	
         </ul>
     </div>
         <!--------------------楼梯---------------------->	
@@ -433,7 +444,7 @@
 	 			<a href="login.html"><img src="css/img/list_car_pic1.jpg"></a>
 	 		</li>
 	 		<li class="car">
-            	<a href="html/car.html">
+            	<a href="car.html">
 	 			<img src="css/img/list_car_pic2.jpg">
 	 			<span>购</span><span>物</span><span>车</span></a>
 	 		</li>

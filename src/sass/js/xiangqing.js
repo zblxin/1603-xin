@@ -95,3 +95,36 @@ $(function(){
 	})
 	
 })
+/*-------------json（js）----------------*/
+function Pro() {
+			var Province = document.getElementById("province");
+			for(var i = 0; i < pro.length; i++) {
+				var objpro = document.createElement("option");
+
+				objpro.innerHTML = pro[i].name;
+				objpro.value = pro[i].id;
+				Province.appendChild(objpro);
+
+			}
+			selected(Province)
+		}
+
+		function selected(obj) {
+
+			var selectcity = obj.value;
+
+			for(var i = 0; i < pro.length; i++) { //确定出你选择的是那个省（市），
+				if(selectcity == pro[i].id) {
+					break;
+				}
+			}
+			var objselectcity = pro[i].city; //把确定好的省的城市付给变量	
+			var City = document.getElementById("city");
+			City.length = 0;
+			for(var j = 0; j < objselectcity.length; j++) {
+				var objcity = document.createElement("option");
+				objcity.innerHTML = objselectcity[j].name;
+				objcity.value = objselectcity[j].id;
+				City.appendChild(objcity);
+			}
+		}

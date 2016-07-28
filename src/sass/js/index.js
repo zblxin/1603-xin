@@ -83,6 +83,7 @@ $(function() {
 			}).siblings().animate({
 				opacity: 0
 			});
+			
 			$dian.eq(index).css('background', '#bb0f2e').siblings().css('background', '#86685e')
 		}
 
@@ -127,6 +128,28 @@ $(function() {
 					// $(window).scrollTop(top);
 					$('html,body').animate({scrollTop:top});
 				});
-			
 
+})
+$(function(){
+	var $span=$('.list_right span');
+	var $way=$('#way');
+	var $Cway=$('.way');
+	var $mine=$('.mine');
+	var $account=$('.account');
+	var $i=$('.list_right i');
+	$Cway.on('mouseenter',function(){
+		$way.show();
+		$span.show()
+	}).on('mouseleave',function(){
+		$way.hide();
+		$span.hide()
+	})
+	$account.on('mouseenter',function(){
+		$i.show();
+		$mine.show()
+	}).on('mouseleave',function(){
+		$i.hide();
+		$mine.hide()
+	})
+	
 })
